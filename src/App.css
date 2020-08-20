@@ -1,5 +1,12 @@
 .App {
+  background-image: url(./assets/background.png);
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px #cfcfcf;
+  margin: 20px auto;
+  padding: 20px;
   text-align: center;
+  width: 1000px;
 }
 
 .App-header {
