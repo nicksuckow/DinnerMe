@@ -3,16 +3,16 @@ const recipe=[
     "recipe": ""
     },
 	{
-    "recipe": "Taco bake"
+    "recipe": "Taco Bake"
     }, 
     {
-    "recipe": "Chicken bacon ranch casserole"
+    "recipe": "Chicken Bacon Ranch Casserole"
     }, 
     {
     "recipe": "Tacos"
     }, 
     {
-    "recipe": "Chicken bacon ranch wraps"
+    "recipe": "Chicken Bacon Ranch Wraps"
     },
     {
     "recipe": "Hamballs"
@@ -21,37 +21,37 @@ const recipe=[
     "recipe": "BLT"
     }, 
     {
-    "recipe": "Tator tot casserole"
+    "recipe": "Tator Tot Casserole"
     }, 
     {
-    "recipe": "Macaroni and corn"
+    "recipe": "Macaroni and Corn"
     },
     {
-    "recipe": "Chicken quinoa and vegetable skillet"
+    "recipe": "Chicken Quinoa and Vegetable Skillet"
     }, 
     {
     "recipe":  "Philly Cheese Steaks"
     }, 
     {
-    "recipe": "Sausage sandwiches"
+    "recipe": "Sausage Sandwiches"
     }, 
     {
-    "recipe": "Flat breads"
+    "recipe": "Flat Breads"
     },
     {
-    "recipe": "Ham and egg breakfast sandwiches"
+    "recipe": "Ham and Egg Breakfast Sandwiches"
     }, 
     {
     "recipe":  "Pancakes"
     },
     {
-    "recipe": "Breakfast hash"
+    "recipe": "Breakfast Hash"
     }, 
     {
-    "recipe": "Breakfast casserole"
+    "recipe": "Breakfast Casserole"
     },
     {
-    "recipe": "Biscuits and gravy"
+    "recipe": "Biscuits and Gravy"
     }, 
     {
     "recipe":  "Wraps"
@@ -60,19 +60,19 @@ const recipe=[
     "recipe": "Goulash"
     }, 
     {
-    "recipe": "Dorito salad"
+    "recipe": "Dorito Salad"
     },
     {
-    "recipe": "Pork loin"
+    "recipe": "Pork Loin"
     }, 
     {
     "recipe":  "Wings"
     }, 
     {
-    "recipe": "Pineapple salsa chicken"
+    "recipe": "Pineapple Salsa Chicken"
     }, 
     {
-    "recipe": "Orange chicken"
+    "recipe": "Orange Chicken"
     },
     {
     "recipe": "Drumsticks"
@@ -81,58 +81,58 @@ const recipe=[
     "recipe":  "Burritos"
     }, 
     {
-    "recipe": "Crunch wraps"
+    "recipe": "Crunch Wraps"
     }, 
     {
-    "recipe": "Alfredo roll ups"
+    "recipe": "Alfredo Roll Ups"
     }, 
     {
-    "recipe":  "Cuban sandwiches"
+    "recipe":  "Cuban Sandwiches"
     }, 
     {
-    "recipe": "Ham sliders"
+    "recipe": "Ham Sliders"
     }, 
     {
-    "recipe": "Stuffed bell peppers"
+    "recipe": "Stuffed Bell Peppers"
     },
     {
-    "recipe": "Chicken enchilada soup"
+    "recipe": "Chicken Enchilada Soup"
     }, 
     {
-    "recipe":  "Chicken stir fry"
+    "recipe":  "Chicken Stir Fry"
     }, 
     {
-    "recipe": "Scalloped potatoes and ham"
+    "recipe": "Scalloped Potatoes and Ham"
     }, 
     {
-    "recipe": "Crockpot Italian chicken"
+    "recipe": "Crockpot Italian Chicken"
     }, 
     {
-    "recipe":  "Loaded baked potatoes"
+    "recipe":  "Loaded Baked Potatoes"
     }, 
     {
-    "recipe": "Cheesy chicken and rice bake"
+    "recipe": "Cheesy Chicken and Rice Bake"
     }, 
     {
-    "recipe": "Hamburger rice hotdish"
+    "recipe": "Hamburger Rice Hotdish"
     },
     {
-    "recipe": "Chicken noodle soup"
+    "recipe": "Chicken Noodle Soup"
     }, 
     {
     "recipe":  "Meatloaf"
     }, 
     {
-    "recipe": "White chicken chili"
+    "recipe": "White Chicken Chili"
     }, 
     {
     "recipe": "Lasagna"
     }, 
     {
-    "recipe":  "Beef or chicken enchiladas"
+    "recipe":  "Beef or Chicken Enchiladas"
     }, 
     {
-    "recipe": "Cap’n Crunch chicken strips"
+    "recipe": "Cap’n Crunch Chicken Strips"
     }, 
     {
     "recipe": "Steaks"
