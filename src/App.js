@@ -39,14 +39,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>RecipeMe</h1>
-        <div className="App-header">
-      <div>
+      <div className="App-header">
         <RecipeSelector
           displayColor={this.randomColor}
           handleClick={this.handleClick}
           {...this.state}
         />
-      </div>
       </div>
       </div>
     );
