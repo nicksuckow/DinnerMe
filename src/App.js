@@ -32,7 +32,7 @@ class App extends React.Component {
       <div className="App-header">
         <h1>RecipeMe</h1>
       <div className="Body">
-        <h3>Hit the button to randomly select a new recipe</h3>
+        <h4>Hit the button to randomly select a new recipe</h4>
         <RecipeSelector
           handleClick={this.handleClick}
           {...this.state}

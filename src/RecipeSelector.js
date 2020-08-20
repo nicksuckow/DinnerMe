@@ -15,7 +15,7 @@ class RecipeSelector extends React.Component {
          className="fadeIn"
          key={Math.random()}
         >
-          <h3 id="recipe">{this.props.recipe}</h3>
+          <h4 id="recipe">{this.props.recipe}</h4>
         </div>
        
       </div>
