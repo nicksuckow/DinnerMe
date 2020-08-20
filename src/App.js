@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="App-header">
           <h1>DinnerMe</h1>
+          <h3>Hit the button to choose a random dinner for tonight:</h3>
       </div>
       
     </div>
