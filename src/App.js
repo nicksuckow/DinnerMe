@@ -26,22 +26,14 @@ class App extends React.Component {
     });
     this.shuffleRecipe(recipe)
   };
-
-  randomColor() {
-    const color = `rgb(
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)},
-      ${Math.floor(Math.random() * 155)})`;
-    return color;
-  }
   
   render() {
     return (
       <div className="App-header">
         <h1>RecipeMe</h1>
       <div className="Body">
+        <h3>Hit the button to randomly select a new recipe</h3>
         <RecipeSelector
-          displayColor={this.randomColor}
           handleClick={this.handleClick}
           {...this.state}
         />

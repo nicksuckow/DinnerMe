@@ -17,12 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.quotebox {
+.box {
   height: auto;
   width: 100%;
   border: 1px rgb(145, 126, 126) solid;
@@ -31,15 +31,4 @@
   max-width: 35rem;
   justify-content: center;
   
-}
-
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }

@@ -1,23 +1,21 @@
 import React from "react";
+import Button from '@material-ui/core/Button';
+
 
 class RecipeSelector extends React.Component {
   render() {
     return (
-      <div className="quotebox">
-           <div className="button">
-           <button
-          id="newrecipe"
-          onClick={this.props.handleClick}
+      <div className="box">
+        <Button variant="contained"
+        onClick={this.props.handleClick}
         >
-          New recipe
-        </button>
-           </div>
-         
+        New Recipe
+        </Button> 
         <div
          className="fadeIn"
          key={Math.random()}
         >
-          <h1 id="recipe">{this.props.recipe}</h1>
+          <h3 id="recipe">{this.props.recipe}</h3>
         </div>
        
       </div>
