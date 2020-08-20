@@ -1,4 +1,4 @@
-const dinneroptions=[
+const recipe=[
 	{
     "recipe": "Mac and Corn"
     }, 
@@ -12,3 +12,5 @@ const dinneroptions=[
     "recipe": "Burritos"
     }
 ]
+
+export default recipe
