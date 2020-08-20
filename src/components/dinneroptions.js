@@ -1,14 +1,14 @@
-const quotes=[
+const dinneroptions=[
 	{
-    "recipe": "Mac and Corn",
+    "recipe": "Mac and Corn"
     }, 
     {
-    "recipe": "Steak and Potatoes",
+    "recipe": "Steak and Potatoes"
     }, 
     {
-    "recipe": "Tacos",
+    "recipe": "Tacos"
     }, 
     {
-    "recipe": "Burritos",
+    "recipe": "Burritos"
     }
-}
+]
