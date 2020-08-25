@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DinnerMe/static/css/main.1f6a0c0a.chunk.css",
+    "main.js": "/DinnerMe/static/js/main.0d8f47be.chunk.js",
+    "main.js.map": "/DinnerMe/static/js/main.0d8f47be.chunk.js.map",
+    "runtime-main.js": "/DinnerMe/static/js/runtime-main.4a6075b7.js",
+    "runtime-main.js.map": "/DinnerMe/static/js/runtime-main.4a6075b7.js.map",
+    "static/js/2.752fc1dc.chunk.js": "/DinnerMe/static/js/2.752fc1dc.chunk.js",
+    "static/js/2.752fc1dc.chunk.js.map": "/DinnerMe/static/js/2.752fc1dc.chunk.js.map",
+    "index.html": "/DinnerMe/index.html",
+    "precache-manifest.db72687eb0cd48270e64caabd4e2431a.js": "/DinnerMe/precache-manifest.db72687eb0cd48270e64caabd4e2431a.js",
+    "service-worker.js": "/DinnerMe/service-worker.js",
+    "static/css/main.1f6a0c0a.chunk.css.map": "/DinnerMe/static/css/main.1f6a0c0a.chunk.css.map",
+    "static/js/2.752fc1dc.chunk.js.LICENSE.txt": "/DinnerMe/static/js/2.752fc1dc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DinnerMe/static/media/background.de7b0a6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a6075b7.js",
+    "static/js/2.752fc1dc.chunk.js",
+    "static/css/main.1f6a0c0a.chunk.css",
+    "static/js/main.0d8f47be.chunk.js"
+  ]
+}
