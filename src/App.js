@@ -30,7 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App-header">
-        <h1>RecipeMe</h1>
+        <h1>Dinner Me</h1>
       <div className="Body">
         <h4>Hit the button to randomly select a new recipe</h4>
         <RecipeSelector
