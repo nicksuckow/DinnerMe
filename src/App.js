@@ -33,9 +33,11 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Content from "./components/MainDish";
+import MainDish from "./components/MainDish";
 import recipes from './assets/recipes.png';
 import RecipeSelector from './RecipeSelector';
+import SideDish from "./components/SideDish";
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -49,7 +51,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box p={3}>
+        <Box p={0}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -82,17 +84,17 @@ export default function SimpleTabs() {
     <div className="App-header">
       <AppBar position="auto">
       <h1>Recipe Me <img className="photo" src={recipes} alt="logo"></img></h1>
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="Main Dishes" href={Content}{...a11yProps(0)} />
+        <Tabs value={value} onChange={handleChange}>
+          <Tab label="Main Dishes" {...a11yProps(0)} />
           <Tab label="Side Dishes" {...a11yProps(1)} />
           <Tab label="Desserts" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <Content></Content>      
+        <MainDish></MainDish>      
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <RecipeSelector></RecipeSelector>
+        <SideDish></SideDish>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <RecipeSelector></RecipeSelector>

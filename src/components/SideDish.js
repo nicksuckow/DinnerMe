@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 import RecipeSelector from '../RecipeSelector';
-import recipe from './maindishoptions';
+import recipe from './sidedishoptions';
 
-class MainDish extends React.Component {
+class SideDish extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -40,5 +40,5 @@ class MainDish extends React.Component {
   }
 }
 
-export default MainDish;
+export default SideDish;
     
