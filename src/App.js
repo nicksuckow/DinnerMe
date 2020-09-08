@@ -28,13 +28,12 @@ export default App; */
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Content from "./components/Content";
+import Content from "./components/MainDish";
 import recipes from './assets/recipes.png';
 import RecipeSelector from './RecipeSelector';
 
@@ -71,15 +70,8 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
-  },
-}));
 
 export default function SimpleTabs() {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -87,7 +79,7 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className="App-header">
       <AppBar position="auto">
       <h1>Recipe Me <img className="photo" src={recipes} alt="logo"></img></h1>
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">

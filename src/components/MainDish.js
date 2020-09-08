@@ -1,8 +1,7 @@
 import React from 'react';
 import '../App.css';
 import RecipeSelector from '../RecipeSelector';
-import recipe from '../components/dinneroptions';
-import recipes from '../assets/recipes.png';
+import recipe from './dinneroptions';
 
 class Content extends React.Component {
   constructor() {
