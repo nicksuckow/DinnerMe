@@ -8,6 +8,7 @@ class App extends Component {
   }
 
   render() {
+    // eslint-disable-next-line 
     const styles = {
       white: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
       black: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
