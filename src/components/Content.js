@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import RecipeSelector from '../RecipeSelector';
 import recipe from '../components/dinneroptions';
+import recipes from '../assets/recipes.png';
 
 class Content extends React.Component {
   constructor() {
@@ -30,7 +31,7 @@ class Content extends React.Component {
   render() {
     return (
       <div className="App-header">
-        <h1>Recipe Me</h1>
+        <h1>Recipe Me <img className="photo" src={recipes} alt="logo"></img></h1>
       <div className="Body">
         <h4>Hit the button to select a new recipe</h4>
         <RecipeSelector
