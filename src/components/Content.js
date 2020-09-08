@@ -32,7 +32,7 @@ class Content extends React.Component {
       <div className="App-header">
         <h1>RecipeMe</h1>
       <div className="Body">
-        <h4>Hit the button to randomly select a new recipe</h4>
+        <h4>Hit the button to select a new recipe</h4>
         <RecipeSelector
           handleClick={this.handleClick}
           {...this.state}
