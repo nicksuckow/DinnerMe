@@ -30,15 +30,12 @@ class Content extends React.Component {
   
   render() {
     return (
-      <div className="App-header">
-        <h1>Recipe Me <img className="photo" src={recipes} alt="logo"></img></h1>
       <div className="Body">
         <h4>Hit the button to select a new recipe</h4>
         <RecipeSelector
           handleClick={this.handleClick}
           {...this.state}
         />
-      </div>
       </div>
     );
   }
