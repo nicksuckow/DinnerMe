@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66938b60a80ee8eb3e86c74ec5e3d1ce",
+    "revision": "9b67938e7f8526ba47541ff13cffa84f",
     "url": "/RecipeMe/index.html"
   },
   {
-    "revision": "82de3e65b4b829e02d89",
-    "url": "/RecipeMe/static/css/main.36a0a87f.chunk.css"
+    "revision": "b95c6e43b67c151806d8",
+    "url": "/RecipeMe/static/css/main.55f37c60.chunk.css"
   },
   {
-    "revision": "5e1cf3f29f470533503e",
-    "url": "/RecipeMe/static/js/2.752fc1dc.chunk.js"
+    "revision": "af9db2475cd98aec10f2",
+    "url": "/RecipeMe/static/js/2.24a18c7a.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/RecipeMe/static/js/2.752fc1dc.chunk.js.LICENSE.txt"
+    "url": "/RecipeMe/static/js/2.24a18c7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82de3e65b4b829e02d89",
-    "url": "/RecipeMe/static/js/main.ecc80d18.chunk.js"
+    "revision": "b95c6e43b67c151806d8",
+    "url": "/RecipeMe/static/js/main.6d2b4ee1.chunk.js"
   },
   {
     "revision": "872842f326097ead26e0",
