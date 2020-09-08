@@ -47,8 +47,6 @@ export default App; */
 
 
 import React, { Component } from "react";
-import TopBar from "./components/TopBar";
-import FooterMenu from "./components/FooterMenu";
 import Content from "./components/Content";
 
 class App extends Component {
@@ -65,24 +63,9 @@ class App extends Component {
       footerMenuHeight: 50
     };
 
-    const menuItems = [
-      { icon: `😀`, text: "Item 1" },
-      { icon: `😉`, text: "Item 2" },
-      { icon: `😎`, text: "Item 3" },
-      { icon: `🤔`, text: "Item 4" },
-      { icon: `😛`, text: "Item 5" }
-    ];
-
     return (
-      <div
-        style={{
-          backgroundColor: styles.black(0.05),
-          minHeight: "100vh",
-          position: "relative"
-        }}
-      >
+      <div>
         <Content/>
-        <FooterMenu menuItems={menuItems} styles={styles} />
       </div>
     );
   }
