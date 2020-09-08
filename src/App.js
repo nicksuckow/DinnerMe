@@ -35,7 +35,6 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import MainDish from "./components/MainDish";
 import recipes from './assets/recipes.png';
-import RecipeSelector from './RecipeSelector';
 import SideDish from "./components/SideDish";
 import DessertDish from "./components/DessertDish";
 
