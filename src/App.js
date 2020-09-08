@@ -37,6 +37,7 @@ import MainDish from "./components/MainDish";
 import recipes from './assets/recipes.png';
 import RecipeSelector from './RecipeSelector';
 import SideDish from "./components/SideDish";
+import DessertDish from "./components/DessertDish";
 
 
 function TabPanel(props) {
@@ -97,7 +98,7 @@ export default function SimpleTabs() {
         <SideDish></SideDish>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <RecipeSelector></RecipeSelector>
+        <DessertDish></DessertDish>
       </TabPanel>
     </div>
   );
