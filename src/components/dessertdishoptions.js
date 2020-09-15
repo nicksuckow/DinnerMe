@@ -3,7 +3,7 @@ const recipe=[
     "recipe": ""
     },
 	{
-    "recipe": "Pie"
+    "recipe": "Apple Pie"
     }, 
     {
     "recipe": "Cookie Dough Ice Cream"
@@ -16,6 +16,36 @@ const recipe=[
     },
     {
     "recipe": "Sugar Cookies"
+    },
+	{
+    "recipe": "Strawberry Rubarb Pie"
+    }, 
+    {
+    "recipe": "Cheesecake"
+    }, 
+    {
+    "recipe": "Funnel Cake"
+    }, 
+    {
+    "recipe": "Frozen Yogurt"
+    },
+    {
+    "recipe": "Key Lime Pie"
+    },
+	{
+    "recipe": "Cherry Pie"
+    }, 
+    {
+    "recipe": "Cinnamon Rolls"
+    }, 
+    {
+    "recipe": "Cupcake"
+    }, 
+    {
+    "recipe": "Brownies"
+    },
+    {
+    "recipe": "Angel Food Cake"
     }
 ]
 
