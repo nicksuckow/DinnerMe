@@ -37,6 +37,7 @@ import MainDish from "./components/MainDish";
 import recipes from './assets/recipes.png';
 import SideDish from "./components/SideDish";
 import DessertDish from "./components/DessertDish";
+import NewRecipe from "./components/newRecipe";
 
 
 function TabPanel(props) {
@@ -88,6 +89,7 @@ export default function SimpleTabs() {
           <Tab label="Main Dishes" {...a11yProps(0)} />
           <Tab label="Side Dishes" {...a11yProps(1)} />
           <Tab label="Desserts" {...a11yProps(2)} />
+          <Tab label="Add a new Recipe" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -98,6 +100,9 @@ export default function SimpleTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <DessertDish></DessertDish>
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        <NewRecipe></NewRecipe>
       </TabPanel>
     </div>
   );
