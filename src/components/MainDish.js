@@ -36,7 +36,6 @@ class MainDish extends React.Component {
           {...this.state}
         />
       </div>
-      
     );
   }
 }

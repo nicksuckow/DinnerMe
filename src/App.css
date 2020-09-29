@@ -11,7 +11,7 @@
 
 .Body {
   
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@ form button {
 button {
   border-radius: 2px;
   min-width: 88px;
-  background-color: #3a57b5;
+  background-color: #fcba03;
   cursor: pointer;
   border: 0;
   min-width: 120px;
@@ -140,4 +140,5 @@ button {
   font-size: 14px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
   padding: 10px 6px;
+  min-height: 48,
 }

@@ -39,6 +39,10 @@ import SideDish from "./components/SideDish";
 import DessertDish from "./components/DessertDish";
 import NewRecipe from "./components/newRecipe";
 
+const style = {
+  background: '#fcba03',
+};
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -83,7 +87,7 @@ export default function SimpleTabs() {
 
   return (
     <div className="App-header">
-      <AppBar position="auto">
+      <AppBar style={style} position="auto">
       <h1>Recipe Me <img className="photo" src={recipes} alt="logo"></img></h1>
         <Tabs value={value} onChange={handleChange}>
           <Tab label="Main Dishes" {...a11yProps(0)} />
